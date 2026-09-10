@@ -120,7 +120,7 @@ class CarDetection:
                 # Display dimensions
                 cv2.putText(
                     frame,
-                    f"{width}x{height}",
+                    f"confidence={confidence:.3f}",
                     (x1, max(y1 - 5, 15)),
                     cv2.FONT_HERSHEY_SIMPLEX,
                     0.5,
